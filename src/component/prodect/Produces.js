@@ -14,12 +14,14 @@ const Produces = () => {
         <div className='product'>
             <div className='mobile-section'>
                 <h3>mobile section</h3>
+                <div   className='mobile-container'>
                 {
                     products.map(product => <Mobile
                         key={product.id}
                         product ={product}
                         ></Mobile>)
                 }
+                </div>
                 </div>
             <div className='card-section'> card section</div>
         </div>

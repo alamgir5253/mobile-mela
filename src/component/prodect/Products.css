@@ -2,3 +2,9 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.mobile-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   
+}
