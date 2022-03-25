@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "img": "https://static.digit.in/product/97036a3ef3b60f99a34cf0e16fb867896146a6e2.jpeg?tr=w-1200",
+    "name": "one +",
+    "price": 44420
+  
+  },
+  {
+    "id": "2",
+    "img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-98620/Oppo-Reno6-5Gfeatured-image-packshot-review-Recovered-Recovered.jpg",
+    "name": "oppo reno 6 (5G)",
+    "price": 34420
+  
+  },
+  {
+    "id": "3",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhF0gmHZ4KMqLrzFJOZkyN8LyVvWs75I2qg&usqp=CAU",
+    "name": "vivo Y33s",
+    "price": 21420
+  
+  },
+  {
+    "id": "4",
+    "img": "https://images-eu.ssl-images-amazon.com/images/I/71r69Y7BSeL._AC._SR360,460.jpg",
+    "name": "samsung M 12",
+    "price": 23460
+  
+  },
+  {
+    "id": "5",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2022/02/Tecno-Pop-5-LTE-image.jpg",
+    "name": "pop 5",
+    "price": 11599
+  
+  },
+  {
+    "id": "6",
+    "img": "https://m.media-amazon.com/images/I/71poFSdDs5S._SX679_.jpg",
+    "name": "oppo A74 (5G)",
+    "price": 19099
+  
+  },
+  {
+    "id": "7",
+    "img": "https://www.businessinsider.in/photo/86834189/Master.jpg",
+    "name": "samsung M 32",
+    "price": 20460
+  
+  },
+  {
+    "id": "8",
+    "img": "https://rukminim1.flixcart.com/image/312/312/kzd147k0/mobile/m/c/f/-original-imagbe5qknarjywp.jpeg?q=70",
+    "name": "vivo T1 (5G)",
+    "price": 13460
+  
+  },
+  {
+    "id": "9",
+    "img": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1640444703.73291912.jpg",
+    "name": "Redme 9i sport",
+    "price": 9460
+  
+  },
+  {
+    "id": "10",
+    "img": "https://brain-images-ssl.cdn.dixons.com/3/1/10237013/u_10237013.jpg",
+    "name": "galaxy A03",
+    "price": 59999
+  
+  }
+  
+  
+]
