@@ -1,6 +1,8 @@
 # Getting Started with Create React App
  code link [https://github.com/Programming-Hero-Web-Course4/lucky-one-alamgir5253](https://github.com/Programming-Hero-Web-Course4/lucky-one-alamgir5253)
 
+ live site link [https://assignment-8-mobile-store.netlify.app/](https://assignment-8-mobile-store.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
