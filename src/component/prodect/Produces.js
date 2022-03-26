@@ -9,8 +9,8 @@ const Produces = () => {
     // console.log(product)
     
     const clearProduct = () =>{
-        const clearProduct = Card =[]
-        return clearProduct
+        
+        setCard([])
     }
     const addToCard = (mobile)=>{
         const newCard = [...card, mobile]
