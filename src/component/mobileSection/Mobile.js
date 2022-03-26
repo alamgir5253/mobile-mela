@@ -2,7 +2,7 @@ import React from 'react';
 import './Mobile.css'
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
-const Mobile = ({product}) => {
+const Mobile = ({product, addToCard}) => {
     const { name, price, img} = product
     return (
         <div>
@@ -11,7 +11,7 @@ const Mobile = ({product}) => {
             <h3>name: {name}</h3>
             <p>price: {price}</p>
             <div className='addToCard'>
-                <button>add to card <AiOutlineShoppingCart className='icon' /></button>
+                <button onClick={()=>addToCard(product)}>add to card <AiOutlineShoppingCart className='icon' /></button>
                 <p></p>
             </div>
             </div>
