@@ -8,9 +8,22 @@
     font-size: 18px;
 }
 .state, .props{
-    border: 2px solid #333;
+    box-shadow: 0 0 10px #333;
+    border-radius: 10px;
     padding: 20px;
+    margin: 10px;
 
+}
+.state h3, .props h3{
+    color: navy;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.state p, .props p{
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 @media only screen and (max-width: 600px) {
     .footer {

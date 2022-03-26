@@ -2,12 +2,35 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.mobile-section .mobile-heading{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
 .mobile-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
    
 }
+.card-section{
+    text-align: center;
+}
+.card-section h1{
+    font-size: 25px;
+    color: navy;
+    margin: 20px 0;
+}
+.card-section .clear-btn{
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #fff;
+    background: navy;
+    border:0;
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .mobile-container {
       grid-template-columns: repeat(1, 1fr);

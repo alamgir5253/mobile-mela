@@ -5,7 +5,7 @@ const Card = ({mobile}) => {
     return (
         <div>
            
-            <p>{name}</p>
+            <p className='product-name'>{name}</p>
         </div>
     );
 };

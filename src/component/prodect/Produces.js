@@ -6,12 +6,14 @@ import Card from "../card/Card"
 const Produces = () => {
     const [products, setProducts] = useState([])
     const [card, setCard] = useState([])
-    // console.log(product)
-    
+    console.log()
+
+    // clear product function 
     const clearProduct = () =>{
         
         setCard([])
     }
+    // add to card function 
     const addToCard = (mobile)=>{
         const newCard = [...card, mobile]
         setCard(newCard)
@@ -24,7 +26,7 @@ const Produces = () => {
     return (
         <div className='product'>
             <div className='mobile-section'>
-                <h3>mobile section</h3>
+                <h3 className='mobile-heading'>mobile section</h3>
                 <div   className='mobile-container'>
                 {
                     products.map(product => <Mobile
@@ -41,8 +43,10 @@ const Produces = () => {
                     card.map(mobile => <Card 
                         mobile ={mobile}
                         key = {mobile.id}></Card>)
-                }
-                <button onClick={clearProduct}>clear</button> 
+                } 
+               <div>
+               <button className='clear-btn' onClick={clearProduct}>clear all</button>  
+                </div> 
             </div>
         </div>
     );
